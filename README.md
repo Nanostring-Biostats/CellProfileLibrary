@@ -1,8 +1,3 @@
----
-output: github_document
----
-
-
 ## Overview
 
 This repo contains a library of "cell profile matrices" - matrices giving the average expression profiles of all cell types found in a tissue. 
