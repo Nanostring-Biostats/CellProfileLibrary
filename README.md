@@ -1,7 +1,10 @@
 ## Overview
 
 This repo contains a library of "cell profile matrices" - matrices giving the average expression profiles of all cell types found in a tissue. 
-Each matrix in the library was derived from a single scRNA-seq experiment.
+Each matrix in the library was derived from a single scRNA-seq experiment. These matrices can be used with cell type deconvolution packages like SpatialDecon to get the cell type proportions or identities. 
+
+![SpatialDecon_workflow](https://user-images.githubusercontent.com/40255151/128896605-9f38e802-58d0-46f8-bcd7-0e9225454cf4.PNG)
+
 
 Each RData file contains 3 file types:
 	
