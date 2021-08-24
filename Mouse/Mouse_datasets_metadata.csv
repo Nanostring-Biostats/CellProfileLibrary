@@ -5,6 +5,7 @@ MCA,BoneMarrow_cKit,Mouse,C57BL/6,6-10 weeks,Adult,https://pubmed.ncbi.nlm.nih.g
 AllenBrainAtlas,Brain,Mouse,"C57BL/6J, Nkx2.1-CreERT2;Ai14",8 weeks,Adult,"https://www.biorxiv.org/content/10.1101/2020.03.30.015214v1.full#F1
 https://portal.brain-map.org/atlases-and-data/rnaseq/mouse-whole-cortex-and-hippocampus-10x","Yao, Z. et al. A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation. bioRxiv 2020.03.30.015214 (2020) doi:10.1101/2020.03.30.015214."
 ImmGen,ImmuneAtlas,Mouse,"C57BL/6, B6.Rorc.tm2Litt",5-6 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/30686579/,"Yoshida, H. et al. The cis-Regulatory Atlas of the Mouse Immune System. Cell 176, 897-912.e20 (2019)."
+ImmGen_cellFamily,ImmuneAtlas,Mouse,"C57BL/6, B6.Rorc.tm2Litt",5-6 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/30686579/,"Yoshida, H. et al. The cis-Regulatory Atlas of the Mouse Immune System. Cell 176, 897-912.e20 (2019)."
 MCA,Kidney,Mouse,C57BL/6,6-10 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/29474909/,"Han, X. et al. Mapping the Mouse Cell Atlas by Microwell-Seq. Cell 172, 1091-1107.e17 (2018)."
 MCA,Liver,Mouse,C57BL/6,6-10 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/29474909/,"Han, X. et al. Mapping the Mouse Cell Atlas by Microwell-Seq. Cell 172, 1091-1107.e17 (2018)."
 MCA,Lung,Mouse,C57BL/6,6-10 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/29474909/,"Han, X. et al. Mapping the Mouse Cell Atlas by Microwell-Seq. Cell 172, 1091-1107.e17 (2018)."
