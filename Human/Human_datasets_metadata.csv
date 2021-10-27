@@ -1,0 +1,66 @@
+Profile Matrix ,Species,Tissue,Age,Age Group,URL,Citation
+AllenBrainAtlas,Human,Brain,adult,Adult,"https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq
+https://portal.brain-map.org/atlases-and-data/rnaseq/protocols-human-cortex",No preprint as of 7/20/2021
+Darmanis,Human,Brain,48 - 60 years,Adult,"http://www.gbmseq.org/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5810554/","Darmanis, S. et al. Single-Cell RNA-Seq Analysis of Infiltrating Neoplastic Cells at the Migrating Front of Human Glioblastoma. Cell Rep 21, 1399–1410 (2017)."
+HCA,Human,Colon,29-69 years,Adult,"https://data.humancellatlas.org/explore/projects/f8aa201c-4ff1-45a4-890e-840d63459ca2
+https://www.sciencedirect.com/science/article/pii/S0092867418311681?via%3Dihub","Kinchen, J. et al. Structural Remodeling of the Human Colonic Mesenchyme in Inflammatory Bowel Disease. Cell 175, 372-386.e17 (2018)."
+HCA,Human,Decidua,6 - 12 weeks,Adult,"https://data.humancellatlas.org/explore/projects/f83165c5-e2ea-4d15-a5cf-33f3550bffde
+https://www.nature.com/articles/s41586-018-0698-6","Vento-Tormo, R. et al. Single-cell reconstruction of the early maternal–fetal interface in humans. Nature 563, 347–353 (2018)."
+HCA,Human,Esophagus,20 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/c4077b3c-5c98-4d26-a614-246d12c2e5d7
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1906-x","Madissoon, E. et al. scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biology 21, 1 (2019)."
+HCA,Human,Gut ,29 - 69 years,Adult,"gutcellatlas.org, https://www.biorxiv.org/content/10.1101/2021.04.07.438755v1","Elmentaite, R. et al. Cells of the human intestinal tract mapped across space and time. bioRxiv 2021.04.07.438755 (2021) doi:10.1101/2021.04.07.438755."
+HCA,Human,Heart,40 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/ad98d3cd-26fb-4ee3-99c9-8a2ab085e737
+https://www.nature.com/articles/s41586-020-2797-4","Litvi?uková, M. et al. Cells of the adult human heart. Nature 588, 466–472 (2020)."
+Wang,Human,Ileum,adult,Adult,https://rupress.org/jem/article/217/2/e20191130/132578/Single-cell-transcriptome-analysis-reveals,"Wang, Y. et al. Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine. Journal of Experimental Medicine 217, (2019)."
+HCA,Human,ImmuneCensus,adult,Adult,https://data.humancellatlas.org/explore/projects/cc95ff89-2e68-4a08-a234-480eca21ce79,Census of Immune Cells. https://data.humancellatlas.org/explore/projects/cc95ff89-2e68-4a08-a234-480eca21ce79.
+safeTME,Human,ImmuneTumor,adult,Adult,http://biorxiv.org/lookup/doi/10.1101/2020.08.04.235168,"Danaher, P. et al. Advances in mixed cell deconvolution enable quantification of cell types in spatially-resolved gene expression data. BioRxiv (2020) doi:10.1101/2020.08.04.235168."
+HCA,Human,Kidney,2 - 72 years,Adult,"https://data.humancellatlas.org/explore/projects/abe1a013-af7a-45ed-8c26-f3793c24a1f4
+https://science.sciencemag.org/content/365/6460/1461","Stewart, B. J. et al. Spatiotemporal immune zonation of the human kidney. Science 365, 1461–1466 (2019)."
+HCA,Human,Liver,21 - 65 years,Adult,"https://data.humancellatlas.org/explore/projects/4d6f6c96-2a83-43d8-8fe1-0f53bffd4674
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6197289/","MacParland, S. A. et al. Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations. Nat Commun 9, 4383 (2018)."
+HCA,Human,Lung,20 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/c4077b3c-5c98-4d26-a614-246d12c2e5d7
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1906-x","Madissoon, E. et al. scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biology 21, 1 (2019)."
+DeMicheli,Human,Muscle,41 - 81 years,Adult,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7336639/,"De Micheli AJ, Spector JA, Elemento O, Cosgrove BD. A reference single-cell transcriptomic atlas of human skeletal muscle tissue reveals bifurcated muscle stem cell populations. Skelet Muscle 2020 Jul 6;10(1):19. PMID: 32624006"
+HCA,Human,Pancreas,21 - 54 years,Adult,"https://data.humancellatlas.org/explore/projects/cddab57b-6868-4be4-806f-395ed9dd635a
+https://pubmed.ncbi.nlm.nih.gov/28965763/","Enge, M. et al. Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns. Cell 171, 321-330.e14 (2017)."
+HCA,Human,Placenta,6 - 12 weeks,Adult,"https://data.humancellatlas.org/explore/projects/f83165c5-e2ea-4d15-a5cf-33f3550bffde
+https://www.nature.com/articles/s41586-018-0698-6","Vento-Tormo, R. et al. Single-cell reconstruction of the early maternal–fetal interface in humans. Nature 563, 347–353 (2018)."
+Henry,Human,Prostate,18 - 31 years,Adult,"https://pubmed.ncbi.nlm.nih.gov/30566875/
+ https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=W-RAHW","Henry, G. H. et al. A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra. Cell Reports 25, 3530-3542.e5 (2018)."
+Wang,Human,Rectum,adult,Adult,https://rupress.org/jem/article/217/2/e20191130/132578/Single-cell-transcriptome-analysis-reveals,"Wang, Y. et al. Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine. Journal of Experimental Medicine 217, (2019)."
+HCA,Human,Retina,42 - 80 years,Adult,"https://data.humancellatlas.org/explore/projects/8185730f-4113-40d3-9cc3-929271784c2b
+https://pubmed.ncbi.nlm.nih.gov/31436334/","Lukowski, S. W. et al. A single-cell transcriptome atlas of the adult human retina. EMBO J 38, e100811 (2019)."
+HCA,Human,Skin,25 - 70 years,Adult,"https://data.humancellatlas.org/explore/projects/51f02950-ee25-4f4b-8d07-59aa99bb3498
+https://www.nature.com/articles/s42003-020-0922-4","Solé-Boldo, L. et al. Single-cell transcriptomes of the human skin reveal age-related loss of fibroblast priming. Commun Biol 3, 1–12 (2020)."
+HCA,Human,Spleen,20 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/c4077b3c-5c98-4d26-a614-246d12c2e5d7
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1906-x","Madissoon, E. et al. scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biology 21, 1 (2019)."
+Guo,Human,Testis,17 - 25 years,Adult,https://www.nature.com/articles/s41422-018-0099-2,"Guo, J. et al. The adult human testis transcriptional cell atlas. Cell Res 28, 1141–1157 (2018)."
+COVID19_cellAtlas,Human,Bronchoalveolar_lavage_fluid,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html",Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020) doi:10.1101/2020.11.20.20227355.
+COVID19_cellAtlas,Human,Covid_Airway,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html",Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020) doi:10.1101/2020.11.20.20227355.
+COVID19_cellAtlas,Human,Immunodeficiency_Nasal_Swabs,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html",Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020) doi:10.1101/2020.11.20.20227355.
+COVID19_cellAtlas,Human,Immunodeficiency_PBMCs,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html",Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020) doi:10.1101/2020.11.20.20227355.
+COVID19_cellAtlas,Human,MGH_Broad,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html",Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020) doi:10.1101/2020.11.20.20227355.
+COVID19_cellAtlas,Human,PBMCs,adult,COVID-Infected,"https://www.medrxiv.org/content/10.1101/2020.11.20.20227355v1
+https://www.covid19cellatlas.org/index.patient.html 
+https://www.nature.com/articles/s41591-020-0944-y","Chan Zuckerberg Initiative Single-Cell COVID-19 Consortia et al. Single cell profiling of COVID-19 patients: an international data resource from multiple tissues. http://medrxiv.org/lookup/doi/10.1101/2020.11.20.20227355 (2020), 1.Wilk, A. J. et al. A single-cell atlas of the peripheral immune response in patients with severe COVID-19. Nat Med 26, 1070–1076 (2020). doi:10.1101/2020.11.20.20227355."
+Descartes,Human,Adrenal,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Cerebellum,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Cerebrum,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Eye,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Heart,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Intestine,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Kidney,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Liver,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Lung,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Muscle,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Pancreas,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Placenta,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Spleen,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Stomach,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
+Descartes,Human,Thymus,72 - 129 days ,Fetal,https://science.sciencemag.org/content/370/6518/eaba7721,"Cao, J. et al. A human cell atlas of fetal gene expression. Science 370, (2020)."
