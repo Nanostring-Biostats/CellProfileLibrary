@@ -13,13 +13,13 @@ If you have already created a branch on a forked reposititory, you can skip to *
 ### 1. Fork the CellProfileLibrary repository. This creates a local version of the repository in your GitHub account.
 
 <p align="center">
-  <img src="userSubmission/images/forking.png">
+  <img src="userSubmission/images/forking.PNG">
 </p>
 
 Your GitHub repository should now say that it is a forked repository
 
 <p align="center">
-  <img src="userSubmission/images/forked.png">
+  <img src="userSubmission/images/forked.PNG">
 </p>
 
 
@@ -31,7 +31,7 @@ Some steps are different if you are using a command line interface (CLI) or GitH
 - Copy the HTTPS link from **your forked** CellProfileLibrary repository 
 
 <p align="center">
-  <img src="userSubmission/images/clone_CLI_underline_maddygriz.png">
+  <img src="userSubmission/images/clone_CLI_underline_maddygriz.PNG">
 </p>
     
 - Clone repository and change into that directory 
@@ -40,7 +40,7 @@ Some steps are different if you are using a command line interface (CLI) or GitH
         git cd CellProfileLibrary
 
 <p align="center">
-  <img src="userSubmission/images/clone_CLI_freya.png">
+  <img src="userSubmission/images/clone_CLI_freya.PNG">
 </p>
 
 ### 3. Sync forked master branch
@@ -50,7 +50,7 @@ To pull changes from original repository, you need to add the original Git repos
 - Copy the HTTPS link from the **Nanostring-Biostats** CellProfileLibrary repository
 
 <p align="center">
-  <img src="userSubmission/images/clone_CLI_underline.png">
+  <img src="userSubmission/images/clone_CLI_underline.PNG">
 </p>
 
 - Add a remote branch that points to the original repository
@@ -58,7 +58,7 @@ To pull changes from original repository, you need to add the original Git repos
         git remote add upstream https://github.com/Nanostring-Biostats/CellProfileLibrary.git
 
 <p align="center">
-    <img src="userSubmission/images/upstream_CLI_freya.png">
+    <img src="userSubmission/images/upstream_CLI_freya.PNG">
 </p>    
 
 - Fetch all of the branches from the original repository 
@@ -66,7 +66,7 @@ To pull changes from original repository, you need to add the original Git repos
         git fetch upstream
     
 <p align="center">
-    <img src="userSubmission/images/fetch_CLI.png">
+    <img src="userSubmission/images/fetch_CLI.PNG">
 </p>
     
 - merge any upstream changes with your forked repository
@@ -74,12 +74,12 @@ To pull changes from original repository, you need to add the original Git repos
         git merge upstream/master
 
 <p align="center">
-    <img src="userSubmission/images/merge_CLi.png">
+    <img src="userSubmission/images/merge_CLi.PNG">
 </p>
 
 ### 4. Create a branch
 It is best practice to work on a different branch than master. 
-- `git branch` shows all branches with an `*` on the current working branch 
+- `git branch` shows all branches with an * on the current working branch 
 
 <br>
 
@@ -88,7 +88,7 @@ It is best practice to work on a different branch than master.
         git branch
 
 <p align="center">
-    <img src="userSubmission/images/newbranch_CLI.png">
+    <img src="userSubmission/images/newbranch_CLI.PNG">
 </p>
    
     
@@ -100,41 +100,46 @@ It is best practice to work on a different branch than master.
 - Open with GitHub Desktop and follow their instructions
 
 <p align="center">
-    <img src="userSubmission/images/clone_desktop_underline.png">
+    <img src="userSubmission/images/clone_desktop_underline.PNG">
 </p>
 
 - Choose To contribute to the parent project
 
 <p align="center">
-    <img src="userSubmission/images/branch_type_desktop.png">
+    <img src="userSubmission/images/branch_type_desktop.PNG">
 </p>
 
      
 ### 3. Sync forked master branch
 To pull changes from original repository, you need to add the original Git repository as an upstream repository.
 
-- by choosing to contribute to the parent project, the steps of `adding the remote upstream branch` and `fetching` it are automatically done for you
+- by choosing to contribute to the parent project, the steps of **adding the remote upstream branch** and **fetching** it are automatically done for you
 
 - merge any upstream changes with your forked repository
 
 <p align="center">
-    <img src="userSubmission/images/merge_desktop.png">
+    <img src="userSubmission/images/merge_desktop.PNG">
 </p>
 <p align="center">
-    <img src="userSubmission/images/merge_branch_desktop.png">
+    <img src="userSubmission/images/merge_branch_desktop.PNG">
 </p>
 
 ### 4. Create a branch
 It is best practice to work on a different branch than master.
 
+- Add new branch
 <p align="center">
-    <img src="userSubmission/images/newbranch_desktop.png">
+    <img src="userSubmission/images/newbranch_desktop.PNG">
 </p>
+
+- Name new branch
 <p align="center">
-    <img src="userSubmission/images/newbranch_naming_desktop.png">
+    <img src="userSubmission/images/newbranch_naming_desktop.PNG">
 </p>
+
+- Publish new branch
 <p align="center">
-    <img src="userSubmission/images/newbranch_proof_desktop.png">
+    <img src="userSubmission/images/newbranch_proof_desktop.PNG">
 </p>
 
 <br>
@@ -142,7 +147,7 @@ It is best practice to work on a different branch than master.
 ## GitHub Website 
 You can also fetch and merge from the website.
 <p align="center">
-    <img src="userSubmission/images/fetch_website.png">
+    <img src="userSubmission/images/fetch_website.PNG">
 </p>
 
 # 5. Adding a custom profile matrix to repository 
@@ -193,12 +198,12 @@ After adding your changes to your branch, you can commit and push the changes to
 - commit your changes to your branch
 
 <p align="center">
-    <img src="userSubmission/images/commit_desktop.png">
+    <img src="userSubmission/images/commit_desktop.PNG">
 </p>
 
 - push changes to GitHub
 <p align="center">
-    <img src="userSubmission/images/push_desktop.png">
+    <img src="userSubmission/images/push_desktop.PNG">
 </p>
 
 <br>
@@ -206,7 +211,7 @@ After adding your changes to your branch, you can commit and push the changes to
 ### 7. Make PR
 - On GitHub, click on Compare & pull request to open a pull request 
 <p align="center">
-    <img src="userSubmission/images/PR_github.png">
+    <img src="userSubmission/images/PR_github.PNG">
 </p>
 
 - To complete your pull request, make sure that the *head* repository is your personal repo and that the *base* repo is the Nanosting-Biostats one. 
@@ -214,7 +219,7 @@ After adding your changes to your branch, you can commit and push the changes to
 - In the message, write the new profile matrix you are adding to the repo
 - Hit Create pull request
 <p align="center">
-    <img src="userSubmission/images/PR_merge_github.png">
+    <img src="userSubmission/images/PR_merge_github.PNG">
 </p>
 
 After creating a pull request, NanoString will take a look at the request and either merge it in or request changes from you. We will be running the same test script that is avaliable to you, so if that runs on your end your profile matrix will most likely be added without any additional questions. 
