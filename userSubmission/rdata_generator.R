@@ -34,7 +34,7 @@ CellProfileLibraryFolder <- "../"    # location of CellProfileLibrary folder
 
 
 # install & load packages
-required_packages <- c('readxl', 'stringr')
+required_packages <- c('readxl', 'stringr', 'crayon')
 
 for (pkg in required_packages) {
   if (!pkg %in% installed.packages()){
@@ -187,3 +187,4 @@ if(!dir.exists(paste(CellProfileLibraryFolder, species, age, sep = "/"))){
 
 save(cellGroups, metadata, profile_matrix, file = rdata_fileName, precheck = TRUE)
  
+cat(green(paste("RData file was succesfully created at this location:", rdata_fileName)))
