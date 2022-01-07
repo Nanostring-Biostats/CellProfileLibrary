@@ -43,7 +43,7 @@ Some steps are different if you are using a command line interface (CLI) or GitH
         git cd CellProfileLibrary
 
 <p align="center">
-  <img src="userSubmission/images/Inked_clone_CLI_freya.jpg">
+  <img src="userSubmission/images/clone_CLI_freya.jpg">
 </p>
 
 ### 3. Sync forked master branch
@@ -61,7 +61,7 @@ To pull changes from original repository, you need to add the original Git repos
         git remote add upstream https://github.com/Nanostring-Biostats/CellProfileLibrary.git
 
 <p align="center">
-    <img src="userSubmission/images/Inked_upstream_CLI_freya.jpg">
+    <img src="userSubmission/images/upstream_CLI_freya.jpg">
 </p>    
 
 - Fetch all of the branches from the original repository 
@@ -69,7 +69,7 @@ To pull changes from original repository, you need to add the original Git repos
         git fetch upstream
     
 <p align="center">
-    <img src="userSubmission/images/Inked_fetch_CLI.jpg">
+    <img src="userSubmission/images/fetch_CLI.jpg">
 </p>
     
 - merge any upstream changes with your forked repository
@@ -77,7 +77,7 @@ To pull changes from original repository, you need to add the original Git repos
         git merge upstream/master
 
 <p align="center">
-    <img src="userSubmission/images/Inked_merge_CLI.jpg">
+    <img src="userSubmission/images/merge_CLI.jpg">
 </p>
 
 ### 4. Create a branch
@@ -91,7 +91,7 @@ It is best practice to work on a different branch than master.
         git branch
 
 <p align="center">
-    <img src="userSubmission/images/Inked_newbranch_CLI.jpg">
+    <img src="userSubmission/images/newbranch_CLI.jpg">
 </p>
    
     
