@@ -42,7 +42,7 @@ In addition, they can be downloaded within an R session using the "download_prof
 
 ## Archival info
 
-For versions of SpatialDecon before v1.4 and the SpatialDecon plugin, csv files can be downloaded manually from the archive branch in this repository or the profile matrix in the RData file can be converted to a csv. 
+For versions of SpatialDecon <= v1.3 and the SpatialDecon plugin, csv files can be downloaded manually from the archive branch in this repository or the profile matrix in the RData file can be converted to a csv. 
 ```
 load(".RData file")
 write.csv(x = profile_matrix, file = "outputFileLocation/matrixName.csv", 
