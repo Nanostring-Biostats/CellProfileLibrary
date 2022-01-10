@@ -1,3 +1,14 @@
+## Note
+
+This is the archived version of the cell profile matrix library. It is recommended that you chose an .rdata matrix from the master branch. The csv file can be extracted from the rdata file using these lines of code:
+
+```
+load(".RData file")
+write.csv(x = profile_matrix, 
+          file = "outputFileLocation/matrixName.csv", 
+          row.names = TRUE, quote = FALSE)
+```
+
 ## Overview
 
 This repo contains an archived library of "cell profile matrices" - matrices giving the average expression profiles of all cell types found in a tissue. 
