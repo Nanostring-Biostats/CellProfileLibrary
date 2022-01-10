@@ -1,6 +1,6 @@
 ## Overview
 
-This repo contains a library of "cell profile matrices" - matrices giving the average expression profiles of all cell types found in a tissue. 
+This repo contains an archived library of "cell profile matrices" - matrices giving the average expression profiles of all cell types found in a tissue. 
 Each matrix in the library was derived from a single scRNA-seq experiment.
 (The "lung_plus_neutrophils" matrix is an exception - it is an amalgam of two cell profile matrices.)
 
@@ -11,7 +11,7 @@ For details on the generation of these matrices, see Danaher & Kim (2020), "Adva
 
 These matrices can be downloaded directly. 
 
-In addition, they can be downloaded within an R session using the "download_profile_matrix" function from the SpatialDecon package. 
+In addition, they can be downloaded within an R session using the "download_profile_matrix" function from the SpatialDecon package <= v1.3. 
 
 
 ## Details on methods from Danaher & Kim (2020)
