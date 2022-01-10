@@ -31,7 +31,7 @@ Each RData file contains 3 file types:
 
 These matrices can be downloaded directly. 
 
-In addition, they can be downloaded within an R session using the "download_profile_matrix" function from the SpatialDecon package. 
+In addition, they can be downloaded within an R session using the "download_profile_matrix" function from the SpatialDecon package v1.4+. 
 
 
 ## Details on methods 
@@ -39,3 +39,13 @@ In addition, they can be downloaded within an R session using the "download_prof
   "Matrices were generated using published datasets that had annotated cell types in human and mouse. Datasets were normalized, by total gene count, if raw data was used otherwise the publication’s normalization used. These datasets were filtered for cells expressing (count > 0) at least 100 genes and only calculated cell type profiles for cell types with 15+ viable cells. Profiles were created by taking the average expression of each gene across all viable cells of each cell type. The gene list was subset for genes that were expressed at least one cell type and was present in NanoString’s GeoMx Human Whole Transcriptome Atlas or Mouse Whole Transcriptome Atlas in addition to GeoMx COVID-19 Immune Response Atlas spike-in depending on dataset. A function to create custom profile matrices from scRNA-seq data using this method was realeased in SpatialDecon v1.4.
 
   Cell Groups were made using dataset’s cell annotations if applicable. Other groupings were made when original cell types were differentiated by numbers (“gamma-delta T cells 1” and “gamma-delta T cells 2”), different high genes (“Endothelial cell_Cldn5 high” and “Endothelial cell_Tm4sf1 high”), or specific gene expression (“MARCO- macrophage” and “MARCO+ macrophage”). When straight-forward groupings were not present cell types were also grouped by similarly named cell types (“lymphatic endothelial cell” and “maternal endothelial cell”) but this was done sparingly as not to oversimplify the data. These groupings are optional and can be changed by the user if they see fit."
+
+## Archival info
+
+For versions of SpatialDecon before v1.4 and the SpatialDecon plugin, csv files can be downloaded manually from the archive branch in this repository or the profile matrix in the RData file can be converted to a csv. 
+```
+load(".RData file")
+write.csv(x = profile_matrix, file = "outputFileLocation/matrixName.csv", 
+          row.names = TRUE, quote = FALSE)
+```
+
