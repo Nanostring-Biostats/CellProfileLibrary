@@ -36,8 +36,8 @@ for (pkg in required_packages) {
 
 # get dataset location from file 
 dataset <- as.character(str_split(RDataFile, "/", simplify = T))
-if(dataset[length(dataset)-2] == "Fetal" & dataset[length(dataset)-3] == "Mouse"){
-  dataset <- dataset[(length(dataset)-3):length(dataset)]
+if(dataset[length(dataset)-1] == "Fetal" & dataset[length(dataset)-2] == "Mouse"){
+  dataset <- dataset[(length(dataset)-2):length(dataset)]
   names(dataset) <- c("Species", "Age", "Stage", "Dataset")
 }else{
   dataset <- dataset[(length(dataset)-2):length(dataset)]
@@ -94,10 +94,10 @@ if(!grepl("COVID",metadata$`Profile Matrix`)){
 }
 
 #check URLs in metadata are valid
-test_that("URLs in metadata are valid", {
-  expect_true(all(lapply(str_split(metadata$URL, ", ", simplify = T), 
-                         FUN =  url.exists) == TRUE))
-})
+# test_that("URLs in metadata are valid", {
+#   expect_true(all(lapply(str_split(metadata$URL, ", ", simplify = T), 
+#                          FUN =  url.exists) == TRUE))
+# })
 
 #genes in profile matrix are the same format as species panel genes
 test_that("genes in profile matrix are valid organism genes", {
@@ -154,6 +154,34 @@ test_that("profile name is a sheet in the correct cellTypes.xlsx",{
                                                                     sep = "/")))
 })
 
+cellBins <- read_xlsx(path = paste(CellProfileLibraryFolder, 
+                                   metadata$Species,
+                                   paste0(metadata$Species,
+                                          metadata$`Age Group`, 
+                                          "_CellTypes.xlsx"), sep = "/"), 
+                      sheet = dataset["matrix_name"])
+
+#name at the top of the sheet matches profile name
+test_that("name at top of sheet in cellTypes.xlsx matches profile name",{
+ expect_true(gsub(pattern = " - |_", replacement = " ", names(cellBins)[1]) ==
+               gsub(pattern = "_", replacement = " ", dataset["matrix_name"]))
+})
+
+#granular cell types in xlsx match that in RData cellGroups
+test_that("granular cell types in xlsx match that in RData cellGroups",{
+  expect_true(all(gsub("\\W|_|-", ".", cellBins[["...3"]][-1]) %in% 
+                    gsub("\\W|_|-", ".", unlist(cellGroups))))
+  expect_true(all(gsub("\\W|_|-", ".", unlist(cellGroups)) %in% 
+                    gsub("\\W|_|-", ".", cellBins[["...3"]][-1])))
+})
+
+#binned cell types in xlsx match that in RData cellGroups
+test_that("Binned cell types in xlsx match that in RData cellGroups",{
+  expect_true(all(gsub("\\W", ".", unique(cellBins[["...2"]][!is.na(cellBins[["...2"]])][-1])) %in% 
+                    gsub("\\W", ".", names(cellGroups))))
+  expect_true(all(gsub("\\W", ".", names(cellGroups)) %in% 
+                    gsub("\\W", ".", unique(cellBins[["...2"]][!is.na(cellBins[["...2"]])][-1]))))
+})
 
 #profile name does not end with (number)
 test_that("profile name is not a duplicate, ends in a number",{
@@ -165,8 +193,10 @@ species_metadata <- read.table(paste(CellProfileLibraryFolder, metadata$Species,
                                      sep = "/"), header = TRUE, sep = ",",
                                stringsAsFactors = FALSE)
 
-dataset["Tissue"] <- str_split(dataset["matrix_name"], "_", simplify = T)[,1]
-dataset["Profile Matrix"] <- str_split(dataset["matrix_name"], "_", simplify = T)[,2]
+splitMatrixName <- str_split(dataset["matrix_name"], "_", simplify = T)
+
+dataset["Tissue"] <- paste(splitMatrixName[,-ncol(splitMatrixName)], collapse = "_")
+dataset["Profile Matrix"] <- splitMatrixName[,ncol(splitMatrixName)]
 
 #metadata matches rdata name
 test_that("tissue and Profile Name in metadata matches RData file name",{
