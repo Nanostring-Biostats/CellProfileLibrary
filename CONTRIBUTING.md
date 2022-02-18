@@ -43,7 +43,7 @@ Some steps are different if you are using a command line interface (CLI) or GitH
         git cd CellProfileLibrary
 
 <p align="center">
-  <img src="userSubmission/images/clone_CLI_freya.jpg">
+  <img src="userSubmission/images/clone_CLI.jpg">
 </p>
 
 ### 3. Sync forked master branch
@@ -61,7 +61,7 @@ To pull changes from original repository, you need to add the original Git repos
         git remote add upstream https://github.com/Nanostring-Biostats/CellProfileLibrary.git
 
 <p align="center">
-    <img src="userSubmission/images/upstream_CLI_freya.jpg">
+    <img src="userSubmission/images/upstream_CLI.jpg">
 </p>    
 
 - Fetch all of the branches from the original repository 
