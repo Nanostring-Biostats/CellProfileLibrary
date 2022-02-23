@@ -1,5 +1,5 @@
 Instructions: Remove line 4 and fill in with info about your dataset. Each dataset needs it's own metadata file. ,,,,,,
-Name of database or first author,Species (should be Human),Tissue Type,Age of mice used in study. Can be  specific or broad,"Age group currently only ""Adult"", ""Fetal"", ""COVID-infected""","URL(s) of where data can be found online. 
+Name of database or first author,Species (should be Human),Tissue Type include tissue subtype when applicable,Age of human used in study. Can be  specific or broad,"Age group currently only ""Adult"", ""Fetal"", ""COVID-infected""","URL(s) of where data can be found online. 
 If multiple, separate by space ",Citation of paper/preprint
 Profile Matrix,Species,Tissue,Age,Age Group,URL,Citation
 AllenBrainAtlas,Human,Brain,adult,Adult,https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq https://portal.brain-map.org/atlases-and-data/rnaseq/protocols-human-cortex,No preprint as of 7/20/2021

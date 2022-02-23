@@ -1,4 +1,4 @@
 Instructions: Remove line 4 and fill in with info about your dataset. Each dataset needs it's own metadata file. ,,,,,,,
-name of database or first author,tissue type,species,strain of organism used in study,Age of specimens used in study. Can be  specific or broad,"broad age group, currently only ""Adult"", ""Fetal"", ""Neonatal""",URL of where data can be found online,Citation of paper/preprint
+Name of database or first author,Tissue Type include tissue subtype when applicable,Species,Strain of organism used in study,Age of specimens used in study. Can be  specific or broad,"Broad age group, currently only ""Adult"", ""Fetal"", ""Neonatal""",URL of where data can be found online,Citation of paper/preprint
 Profile Matrix,Tissue,Species,Strain,Age,Age Group,URL,Citation
 MCA,BoneMarrow,Mouse,C57BL/6,6-10 weeks,Adult,https://pubmed.ncbi.nlm.nih.gov/29474909/,"Han, X. et al. Mapping the Mouse Cell Atlas by Microwell-Seq. Cell 172, 1091-1107.e17 (2018)."

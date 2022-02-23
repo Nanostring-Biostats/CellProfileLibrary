@@ -158,15 +158,26 @@ After you have set up the forked repository, you are ready to add your own profi
 
 Most of the files needed for these steps are located in the `userSubmission/` folder
 
+**NOTE**: If generating profiles with bespoke scripts, understand that downstream errors in final testing may occur as certain naming conventions are held to for user-submitted content.
+
 1. Run create_profile_matrix() in SpatialDecon v1.4+ 
     - This function requires a single cell count matrix and an annotation sheet with each cell's unique identifier and it's corresponding cell type
     - Run this function with outDir set so that a file is saved to your local machine. 
 2. Update template_metadata.csv file
     - Choose corresponding species template metadata file and fill out the sections
+        - **Profile Matrix** - Name of database or first author
+        - **Tissue** - Tissue Type include tissue subtype when applicable i.e. (Lung_Control, tissue_subtissue)
+        - **Species** - Species
+        - **Strain** - Strain of organism used in study (For Non-Human matrices ONLY)
+        - **Age** - Age of specimens used in study. Can be  specific or broad
+        - **Age Group** - Broad age group, currently "Adult", "Fetal", "Neonatal", "COVID-infected"
+        - **URL** - URL of where data can be found online
+        - **Citation** - Citation of paper/preprint 
 3. Add sheet to correct species and age_group CellTypes.xlsx file
     - Follow the format of the other sheets
-    - Title and sheet name must match the name of the created profile matrix RData file
-        - will follow this format from metadata file *tissue*_*profileMatrix*
+    - **Title** and **sheet name** must match the name of the created profile matrix RData file
+        - Sheet name will follow this format from metadata file *tissue*_*profileMatrix*
+        - Title should follow this format from metadata file *tissue* - *profileMatrix*
 4. Run rdata_generator.R script
     - This script will generate the RData file in the correct location depicted from the metadata information
     - This script has a couple of variables to fill out at the top
