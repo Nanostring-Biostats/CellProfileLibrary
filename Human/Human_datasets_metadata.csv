@@ -1,4 +1,4 @@
-Profile Matrix ,Species,Tissue,Age,Age Group,URL,Citation
+Profile Matrix,Species,Tissue,Age,Age Group,URL,Citation
 AllenBrainAtlas,Human,Brain,adult,Adult,"https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq
 https://portal.brain-map.org/atlases-and-data/rnaseq/protocols-human-cortex",No preprint as of 7/20/2021
 Darmanis,Human,Brain,48 - 60 years,Adult,"http://www.gbmseq.org/
@@ -10,7 +10,7 @@ HCA,Human,Decidua,6 - 12 weeks,Adult,"https://data.humancellatlas.org/explore/pr
 https://www.nature.com/articles/s41586-018-0698-6","Vento-Tormo, R. et al. Single-cell reconstruction of the early maternal–fetal interface in humans. Nature 563, 347–353 (2018)."
 HCA,Human,Esophagus,20 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/c4077b3c-5c98-4d26-a614-246d12c2e5d7
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1906-x","Madissoon, E. et al. scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biology 21, 1 (2019)."
-HCA,Human,Gut ,29 - 69 years,Adult,"gutcellatlas.org, https://www.biorxiv.org/content/10.1101/2021.04.07.438755v1","Elmentaite, R. et al. Cells of the human intestinal tract mapped across space and time. bioRxiv 2021.04.07.438755 (2021) doi:10.1101/2021.04.07.438755."
+HCA,Human,Gut,29 - 69 years,Adult,"gutcellatlas.org, https://www.biorxiv.org/content/10.1101/2021.04.07.438755v1","Elmentaite, R. et al. Cells of the human intestinal tract mapped across space and time. bioRxiv 2021.04.07.438755 (2021) doi:10.1101/2021.04.07.438755."
 HCA,Human,Heart,40 - 75 years,Adult,"https://data.humancellatlas.org/explore/projects/ad98d3cd-26fb-4ee3-99c9-8a2ab085e737
 https://www.nature.com/articles/s41586-020-2797-4","Litvi?uková, M. et al. Cells of the adult human heart. Nature 588, 466–472 (2020)."
 Wang,Human,Ileum,adult,Adult,https://rupress.org/jem/article/217/2/e20191130/132578/Single-cell-transcriptome-analysis-reveals,"Wang, Y. et al. Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine. Journal of Experimental Medicine 217, (2019)."
